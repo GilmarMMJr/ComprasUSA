@@ -11,9 +11,11 @@ Assuntos abordados:
 * NumberFormatter
 
 <h2>APP</h2>
+
 ![comprasUSAgif](https://user-images.githubusercontent.com/88335633/132999015-5c01f507-e928-4f54-8cfa-ef3536f7c316.gif)
 
-<h2>Auto Layout> 
+<h2>Auto Layout</h2> 
+  
   ![comprasUSAgif2](https://user-images.githubusercontent.com/88335633/132999081-1e77ee72-c0a3-4105-8d64-999d0dbf78e6.gif)
 
 
