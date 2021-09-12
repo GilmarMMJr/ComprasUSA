@@ -3,7 +3,7 @@
   
 App criado no curso de Swift do Eric Brito na Udemy.
 
-O objetivo dessa aula era criar um aplicativo de compras USA, onde o mesmo irá fazer uma calculo para mostrar ao usuario o quanto de taxas é cobrada.
+O objetivo dessa aula era criar um aplicativo de compras USA, onde o mesmo irá fazer um calculo para mostrar ao usuario o quanto de taxas é cobrada nas compras em Dólar.
 
 Assuntos abordados:
 * Navegation com UITabBarController
