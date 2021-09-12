@@ -15,6 +15,8 @@
 		519B295826E3F16100DDE2A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519B295626E3F16100DDE2A9 /* LaunchScreen.storyboard */; };
 		519B296026E538BA00DDE2A9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B295F26E538BA00DDE2A9 /* SettingsViewController.swift */; };
 		519B296226E538CC00DDE2A9 /* TaxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B296126E538CB00DDE2A9 /* TaxesViewController.swift */; };
+		519B296426ED4DE200DDE2A9 /* TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B296326ED4DE200DDE2A9 /* TaxesCalculator.swift */; };
+		519B296626ED509B00DDE2A9 /* UIViewController+TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B296526ED509B00DDE2A9 /* UIViewController+TaxesCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		519B295926E3F16100DDE2A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		519B295F26E538BA00DDE2A9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		519B296126E538CB00DDE2A9 /* TaxesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesViewController.swift; sourceTree = "<group>"; };
+		519B296326ED4DE200DDE2A9 /* TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesCalculator.swift; sourceTree = "<group>"; };
+		519B296526ED509B00DDE2A9 /* UIViewController+TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TaxesCalculator.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				519B295926E3F16100DDE2A9 /* Info.plist */,
 				519B295F26E538BA00DDE2A9 /* SettingsViewController.swift */,
 				519B296126E538CB00DDE2A9 /* TaxesViewController.swift */,
+				519B296326ED4DE200DDE2A9 /* TaxesCalculator.swift */,
+				519B296526ED509B00DDE2A9 /* UIViewController+TaxesCalculator.swift */,
 			);
 			path = ComprasUSA;
 			sourceTree = "<group>";
@@ -143,9 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519B296626ED509B00DDE2A9 /* UIViewController+TaxesCalculator.swift in Sources */,
 				519B295026E3F15200DDE2A9 /* ShoppingViewController.swift in Sources */,
 				519B294C26E3F15200DDE2A9 /* AppDelegate.swift in Sources */,
 				519B296226E538CC00DDE2A9 /* TaxesViewController.swift in Sources */,
+				519B296426ED4DE200DDE2A9 /* TaxesCalculator.swift in Sources */,
 				519B294E26E3F15200DDE2A9 /* SceneDelegate.swift in Sources */,
 				519B296026E538BA00DDE2A9 /* SettingsViewController.swift in Sources */,
 			);
@@ -295,6 +303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P72WUU46Z;
 				INFOPLIST_FILE = ComprasUSA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P72WUU46Z;
 				INFOPLIST_FILE = ComprasUSA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

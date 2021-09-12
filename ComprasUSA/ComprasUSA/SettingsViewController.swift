@@ -8,22 +8,35 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
+    
+    @IBOutlet weak var dolarTextField: UITextField!
+    @IBOutlet weak var iofTextField: UITextField!
+    @IBOutlet weak var stateTaxesTextField: UITextField!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        dolarTextField.text = taxesCalculator.gerFormatValue(of: taxesCalculator.dolar, withCurrency: "")
+        iofTextField.text = taxesCalculator.gerFormatValue(of: taxesCalculator.iof, withCurrency: "")
+        stateTaxesTextField.text = taxesCalculator.gerFormatValue(of: taxesCalculator.stateTax, withCurrency: "")
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
     }
-    */
+    
+    func setValue() {
+        taxesCalculator.dolar = taxesCalculator.convertToDouble(dolarTextField.text!)
+        taxesCalculator.iof = taxesCalculator.convertToDouble(iofTextField.text!)
+        taxesCalculator.stateTax = taxesCalculator.convertToDouble(stateTaxesTextField.text!)
+    }
+}
 
+
+extension SettingsViewController: UITextFieldDelegate {
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        setValue()
+    }
 }
