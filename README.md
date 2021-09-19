@@ -3,7 +3,7 @@
   
 App criado no curso de Swift do Eric Brito na Udemy.
 
-O objetivo dessa aula era criar um aplicativo campeões das copas, onde o usuário vai visualizar uma lista de campeões e quando o o mesmo selecionar uma célula apresentara uma nova tela com a trajetória ate a final. 
+O objetivo dessa aula era criar um aplicativo campeões das copas, onde o usuário vai visualizar uma lista de campeões, e quando o mesmo selecionar uma célula apresentara uma nova tela com a trajetória ate a final. 
 
 Assuntos abordados:
 
