@@ -1,20 +1,19 @@
-
-<h1>Aplicativo Campeões das Copas</h1>
+<h1>Aplicativo Compras USA</h1>
   
 App criado no curso de Swift do Eric Brito na Udemy.
 
-O objetivo dessa aula era criar um aplicativo campeões das copas, onde o usuário vai visualizar uma lista de campeões, e quando o mesmo selecionar uma célula apresentara uma nova tela com a trajetória ate a final. 
+O objetivo dessa aula era criar um aplicativo compras USA, onde o usuário vai informar o valor do produto em Dólar e o app converte para Real e na tela de configuração o usuário pode alterar os valores e por fim na tela de impostos o usuário vai vê os valores detalhados. 
 
 Assuntos abordados:
 
-* UITableViewDatasource
-* UITableViewCell
-* Células personalizadas
-* TableView em ViewController
-* Agrupamento de células em seções
+* UITabBarController
+* AutoLayout
+* UIStackView
+* NumberFormatter
+
 
 
 <h2>APP</h2>
 
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/88335633/133940146-bd46fa7d-a6fb-43e7-8363-a121d8550aac.gif)
+![ComprasUSA](https://user-images.githubusercontent.com/88335633/139516367-70e7e829-e26a-477f-883f-3d5d6754e017.gif)
